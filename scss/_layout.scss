@@ -1,0 +1,40 @@
+// BACKGROUND COLOR
+
+ .bg-secondary{
+  background-color: rgba(51, 51, 153, 0.11) !important;
+}
+
+.footer-bg {
+  height: 10%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  background-color: $blue;
+  p, a, a:link, a:hover{
+    color: white;
+    text-shadow: none;
+    font-size: 1em;
+  }
+}
+
+// PAGE LAYOUT
+
+.text-container{
+  width: 85%;
+  @media (min-width: 900px) {
+    width: 65%;
+  }
+}
+
+// NAVBAR
+.nav a{
+  color: $blue;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+// ALIGNMENT
+
+.center{
+      margin:0 auto;
+}

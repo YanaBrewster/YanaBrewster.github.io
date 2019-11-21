@@ -41,8 +41,7 @@
 	@include align-center;
 	position: absolute;
 	height: 80vh;
-  background-color:$purple;
-	opacity: 70%;
+  background-color:rgba(51, 0, 51, 0.7);
 	width: 100%;
 	z-index: -1;
 	@media (max-width: 575px) {
@@ -89,6 +88,12 @@
 }
 
 .w-50{
+	@media (max-width: 900px) {
+			width: 100% !important;
+	}
+}
+
+.w-75{
 	@media (max-width: 900px) {
 			width: 100% !important;
 	}

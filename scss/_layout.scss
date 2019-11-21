@@ -20,18 +20,24 @@
 // PAGE LAYOUT
 
 .text-container{
-  width: 85%;
+  width: 95%;
   @media (min-width: 900px) {
-    width: 65%;
+    width: 80%;
   }
 }
+
 
 // NAVBAR
 .nav a{
   color: $blue;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+  @media (min-width: 900px) {
+  font-size: 1em;
+  }
 }
+
 
 // ALIGNMENT
 

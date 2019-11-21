@@ -68,17 +68,26 @@ p{
 
 .display-2 {
 	font-family: 'Montserrat', sans-serif;
-  font-size: 4em;
   font-weight: 900;
+  font-size: 1.45em;
+  padding-top: 10%;
 	color: white;
 	text-align: center;
-	text-shadow: $text-shadow;
   z-index: +1;
-  padding-top: 8%;
   @media (max-width: 500px) {
-    padding-top: 12%;
+    padding-top: 10%;
     font-size: 1.45em !important;
     text-shadow: $text-shadow-sm;
+  }
+  @media (min-width: 600px) {
+    padding-top: 10%;
+    font-size: 2.5em !important;
+    text-shadow: $text-shadow-sm;
+  }
+  @media (min-width: 900px) {
+    padding-top: 8%;
+    font-size: 4em !important;
+    text-shadow: $text-shadow;
   }
 }
 

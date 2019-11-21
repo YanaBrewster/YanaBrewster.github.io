@@ -7652,18 +7652,27 @@ p {
 
 .display-2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 4em;
   font-weight: 900;
+  font-size: 1.45em;
+  padding-top: 10%;
   color: white;
   text-align: center;
-  text-shadow: #333333 3px 3px 0px;
-  z-index: +1;
-  padding-top: 8%; }
+  z-index: +1; }
   @media (max-width: 500px) {
     .display-2 {
-      padding-top: 12%;
+      padding-top: 10%;
       font-size: 1.45em !important;
       text-shadow: #333333 2px 2px 0px; } }
+  @media (min-width: 600px) {
+    .display-2 {
+      padding-top: 10%;
+      font-size: 2.5em !important;
+      text-shadow: #333333 2px 2px 0px; } }
+  @media (min-width: 900px) {
+    .display-2 {
+      padding-top: 8%;
+      font-size: 4em !important;
+      text-shadow: #333333 3px 3px 0px; } }
 
 .display-3 {
   font-family: 'Libre Baskerville', serif;

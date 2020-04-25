@@ -7730,6 +7730,9 @@ p {
     .nav a {
       font-size: 1em; } }
 
+.navbar {
+  border-bottom: solid 2px rgba(51, 51, 153, 0.03); }
+
 .center {
   margin: 0 auto; }
 

@@ -16,11 +16,17 @@ I love the process of designing and creating websites. The satisfaction of deliv
 
 In my next role, I want to build on my current skill set by refining my user experience knowledge and technique, or sharpen my coding skills and learn new coding languages.
 
+### Education
+---
+**Yoobee Colleges** | Diploma in Web and UX Design | 2019 - 2020 (3 July)
+
+**Massey University** | Bachelor of Fine Arts, 1st Class Honours Class 2014 | 2008-2014
+
 ### Work Experience
 ---
-- J R McKenzie Trust - ​Website Audit Report and Maintenance | 2017
-- Barney Brewster Photography - Photo Assistant & Publishing | 2016-2018
-- Film for Change Aotearoa - Volunteer Manager & Administrator | 2015-2017
+- **J R McKenzie Trust** - ​Website Audit Report and Maintenance | 2017
+- **Barney Brewster Photography** - Photo Assistant & Publishing | 2016-2018
+- **Film for Change Aotearoa** - Volunteer Manager & Administrator | 2015-2017
 
 ### UX/UI Skills
 ---
@@ -53,11 +59,3 @@ In my next role, I want to build on my current skill set by refining my user exp
 - Beginner at PHP
 - MYSQL
 - CMS (WordPress)
-
-
-### Education
----
-
-Yoobee Colleges | Diploma in Web and UX Design | 2019 - 2020 (3 July)
-
-Massey University | Bachelor of Fine Arts, 1st Class Honours Class 2014 | 2008-2014

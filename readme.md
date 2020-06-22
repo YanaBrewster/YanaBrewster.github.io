@@ -58,6 +58,6 @@ In my next role, I want to build on my current skill set by refining my user exp
 ### Education
 ---
 
-Yoobee Design College | Diploma in Web and UX Design | 2019 - 2020 (3 July)
+Yoobee Colleges | Diploma in Web and UX Design | 2019 - 2020 (3 July)
 
 Massey University | Bachelor of Fine Arts, 1st Class Honours Class 2014 | 2008-2014

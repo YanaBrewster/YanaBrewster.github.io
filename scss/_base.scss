@@ -5,6 +5,10 @@
   box-sizing: border-box;
  }
 
+ html, body{
+   overflow-x: hidden;
+ }
+
 // FONT
 
 h1{
@@ -81,7 +85,7 @@ p{
 	color: $gray;
 	text-align: left;
   @media (max-width: 900px) {
-    font-size: 1em !important;
+    font-size: 1.05em !important;
   }
 }
 
@@ -109,7 +113,7 @@ p{
     width: 40%;
     margin: 0 auto;
     @media (max-width: 900px) {
-        font-size: 1em;
+        font-size: 1.05em;
     }
 }
 

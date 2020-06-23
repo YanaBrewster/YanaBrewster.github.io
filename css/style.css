@@ -7597,6 +7597,9 @@ a.text-dark:hover, a.text-dark:focus {
   text-decoration: none;
   box-sizing: border-box; }
 
+html, body {
+  overflow-x: hidden; }
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
@@ -7667,7 +7670,7 @@ p {
   text-align: left; }
   @media (max-width: 900px) {
     p {
-      font-size: 1em !important; } }
+      font-size: 1.05em !important; } }
 
 .display-2 {
   font-family: 'Cookie', cursive;
@@ -7692,7 +7695,7 @@ p {
   margin: 0 auto; }
   @media (max-width: 900px) {
     .button-font {
-      font-size: 1em; } }
+      font-size: 1.05em; } }
 
 .card li {
   margin-left: 3%;
@@ -7833,14 +7836,14 @@ p {
   font-size: 3.5em; }
   @media (max-width: 900px) {
     .fa-linkedin {
-      font-size: 2em; } }
+      font-size: 2.5em; } }
 
 .fa-github-square {
   color: white;
   font-size: 3.5em; }
   @media (max-width: 900px) {
     .fa-github-square {
-      font-size: 2em; } }
+      font-size: 2.5em; } }
 
 .navbar-brand img {
   width: 40%; }
@@ -7987,14 +7990,14 @@ a:active {
   font-size: 3.5em; }
   @media (max-width: 900px) {
     .fa-linkedin {
-      font-size: 2em; } }
+      font-size: 2.5em; } }
 
 .fa-github-square {
   color: white;
   font-size: 3.5em; }
   @media (max-width: 900px) {
     .fa-github-square {
-      font-size: 2em; } }
+      font-size: 2.5em; } }
 
 .navbar-brand img {
   width: 40%; }

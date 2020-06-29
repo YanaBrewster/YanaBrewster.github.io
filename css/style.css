@@ -7665,12 +7665,9 @@ h5 {
 
 p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.125em;
+  font-size: 1em;
   color: #333333;
   text-align: left; }
-  @media (max-width: 900px) {
-    p {
-      font-size: 1.05em !important; } }
 
 .display-2 {
   font-family: 'Cookie', cursive;

@@ -2,7 +2,7 @@
 
 .banner-heading {
 	position: relative;
-	height: 75vh;
+	height: 25vh;
 	width: 100%;
 	background-position: center;
 	background-size: cover;
@@ -16,8 +16,17 @@
 		text-shadow: $text-shadow;
   }
 
-	@media (max-width: 500px) {
-	height: 35vh;
+	@media (min-width: 576px) {
+  	height: 30vh;
+  }
+  @media (min-width: 768px) {
+    height: 35vh;
+  }
+  @media (min-width: 992px) {
+  	height: 45vh;
+  }
+	@media (min-width: 1200px) {
+  	height: 65vh;
 	}
 
 }
@@ -76,6 +85,25 @@
 }
 
 // IMAGES
+
+.img-project{
+	@media (min-width: 576px) {
+	  width: 98%;
+	}
+	@media (min-width: 768px) {
+	  width: 96%;
+	}
+	@media (min-width: 992px) {
+	  width: 94%;
+	}
+	@media (min-width: 1200px) {
+	  width: 90%;
+	}
+	@media (min-width: 1920px) {
+		width: 85%;
+		float: right;
+	}
+}
 
 .w-25{
 	@media (max-width: 900px) {
@@ -148,4 +176,21 @@
 	@media (max-width: 575px) {
 		width: 60%;
 	}
+}
+
+.button-font{
+    text-align: center;
+  	font-family: 'Libre Baskerville', serif;
+    font-size: 1em;
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+.card li{
+  margin-left: 3%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  color: $gray;
+  text-align: left;
 }

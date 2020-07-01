@@ -7607,61 +7607,60 @@ h1 {
   padding-top: 10%;
   color: white;
   text-align: center;
-  z-index: +1; }
-  @media (max-width: 500px) {
+  z-index: +1;
+  text-shadow: #333333 2px 2px 0px; }
+  @media (min-width: 576px) {
     h1 {
       padding-top: 10%;
-      font-size: 1.45em !important;
+      font-size: 2.5em;
       text-shadow: #333333 2px 2px 0px; } }
-  @media (min-width: 600px) {
+  @media (min-width: 768px) {
     h1 {
       padding-top: 10%;
-      font-size: 2.5em !important;
+      font-size: 2.5em;
       text-shadow: #333333 2px 2px 0px; } }
-  @media (min-width: 900px) {
+  @media (min-width: 992px) {
     h1 {
-      padding-top: 8%;
-      font-size: 4em !important;
+      padding-top: 10%;
+      font-size: 4em;
+      text-shadow: #333333 3px 3px 0px; } }
+  @media (min-width: 1200px) {
+    h1 {
+      padding-top: 9%;
+      font-size: 4em;
+      text-shadow: #333333 3px 3px 0px; } }
+  @media (min-width: 1920px) {
+    h1 {
+      padding-top: 15%;
+      font-size: 4em;
       text-shadow: #333333 3px 3px 0px; } }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 700;
   color: #330033; }
-  @media (max-width: 500px) {
-    h2 {
-      font-size: 2em !important; } }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5em;
+  font-size: 1.5em;
   text-align: center;
   font-weight: 700;
   color: #330033; }
-  @media (max-width: 500px) {
-    h3 {
-      font-size: 1.75em !important; } }
 
 h4 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2em;
+  font-size: 1.25em;
   text-align: center;
   font-weight: 700;
   color: #333366; }
-  @media (max-width: 500px) {
-    h4 {
-      font-size: 1.25em !important; } }
 
 h5 {
   font-family: 'Libre Baskerville', serif;
   text-align: center;
   font-weight: 900;
-  font-size: 1.500em;
+  font-size: 1em;
   color: #333333; }
-  @media (max-width: 600px) {
-    h5 {
-      font-size: 1.25em !important; } }
 
 p {
   font-family: 'Montserrat', sans-serif;
@@ -7678,28 +7677,11 @@ p {
   font-family: 'Libre Baskerville', serif;
   text-align: center;
   font-weight: 900;
-  font-size: 2.25em;
+  font-size: 2em;
   color: #333366; }
   @media (max-width: 500px) {
     .display-3 {
       font-size: 1.75em !important; } }
-
-.button-font {
-  text-align: center;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 1.25em;
-  width: 40%;
-  margin: 0 auto; }
-  @media (max-width: 900px) {
-    .button-font {
-      font-size: 1.05em; } }
-
-.card li {
-  margin-left: 3%;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
-  color: #333333;
-  text-align: left; }
 
 .bg-secondary {
   background-color: rgba(51, 51, 153, 0.03) !important; }
@@ -7721,6 +7703,22 @@ p {
     .text-container {
       width: 65%; } }
 
+.index-container {
+  margin: 0 auto;
+  width: 100%; }
+  @media (min-width: 576px) {
+    .index-container {
+      width: 98%; } }
+  @media (min-width: 768px) {
+    .index-container {
+      width: 92%; } }
+  @media (min-width: 992px) {
+    .index-container {
+      width: 90%; } }
+  @media (min-width: 1200px) {
+    .index-container {
+      width: 88%; } }
+
 .nav a {
   color: #333366;
   font-weight: bold;
@@ -7738,7 +7736,7 @@ p {
 
 .banner-heading {
   position: relative;
-  height: 75vh;
+  height: 25vh;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -7749,9 +7747,18 @@ p {
     color: white;
     font-size: 1em;
     text-shadow: #333333 3px 3px 0px; }
-  @media (max-width: 500px) {
+  @media (min-width: 576px) {
+    .banner-heading {
+      height: 30vh; } }
+  @media (min-width: 768px) {
     .banner-heading {
       height: 35vh; } }
+  @media (min-width: 992px) {
+    .banner-heading {
+      height: 45vh; } }
+  @media (min-width: 1200px) {
+    .banner-heading {
+      height: 65vh; } }
 
 .banner-web {
   background-image: url("images/AllCaseStudies_Banner_YanaBrewster.jpg"); }
@@ -7794,6 +7801,23 @@ p {
   @media (max-width: 900px) {
     .w-10 {
       width: 25%; } }
+
+@media (min-width: 576px) {
+  .img-project {
+    width: 98%; } }
+@media (min-width: 768px) {
+  .img-project {
+    width: 96%; } }
+@media (min-width: 992px) {
+  .img-project {
+    width: 94%; } }
+@media (min-width: 1200px) {
+  .img-project {
+    width: 90%; } }
+@media (min-width: 1920px) {
+  .img-project {
+    width: 85%;
+    float: right; } }
 
 @media (max-width: 900px) {
   .w-25 {
@@ -7847,6 +7871,20 @@ p {
   @media (max-width: 575px) {
     .navbar-brand img {
       width: 60%; } }
+
+.button-font {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1em;
+  width: 40%;
+  margin: 0 auto; }
+
+.card li {
+  margin-left: 3%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  color: #333333;
+  text-align: left; }
 
 /* unvisited link */
 a:link {
@@ -7892,7 +7930,7 @@ a:active {
 
 .banner-heading {
   position: relative;
-  height: 75vh;
+  height: 25vh;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -7903,9 +7941,18 @@ a:active {
     color: white;
     font-size: 1em;
     text-shadow: #333333 3px 3px 0px; }
-  @media (max-width: 500px) {
+  @media (min-width: 576px) {
+    .banner-heading {
+      height: 30vh; } }
+  @media (min-width: 768px) {
     .banner-heading {
       height: 35vh; } }
+  @media (min-width: 992px) {
+    .banner-heading {
+      height: 45vh; } }
+  @media (min-width: 1200px) {
+    .banner-heading {
+      height: 65vh; } }
 
 .banner-web {
   background-image: url("images/AllCaseStudies_Banner_YanaBrewster.jpg"); }
@@ -7948,6 +7995,23 @@ a:active {
   @media (max-width: 900px) {
     .w-10 {
       width: 25%; } }
+
+@media (min-width: 576px) {
+  .img-project {
+    width: 98%; } }
+@media (min-width: 768px) {
+  .img-project {
+    width: 96%; } }
+@media (min-width: 992px) {
+  .img-project {
+    width: 94%; } }
+@media (min-width: 1200px) {
+  .img-project {
+    width: 90%; } }
+@media (min-width: 1920px) {
+  .img-project {
+    width: 85%;
+    float: right; } }
 
 @media (max-width: 900px) {
   .w-25 {
@@ -8001,5 +8065,19 @@ a:active {
   @media (max-width: 575px) {
     .navbar-brand img {
       width: 60%; } }
+
+.button-font {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1em;
+  width: 40%;
+  margin: 0 auto; }
+
+.card li {
+  margin-left: 3%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  color: #333333;
+  text-align: left; }
 
 /*# sourceMappingURL=style.css.map */

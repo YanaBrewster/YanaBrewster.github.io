@@ -5,7 +5,6 @@
 }
 
 .footer-bg {
-  height: 10%;
   padding-top: 2%;
   padding-bottom: 3%;
   padding-left: 3%;
@@ -22,7 +21,10 @@
 .text-container{
   width: 95%;
   @media (min-width: 900px) {
-    width: 65%;
+    width: 50%;
+  }
+  @media (min-width: 1920px) {
+    width: 45%;
   }
 }
 
@@ -39,7 +41,7 @@
   width: 90%;
 }
 @media (min-width: 1200px) {
-  width: 88%;
+  width: 90%;
 }
 }
 

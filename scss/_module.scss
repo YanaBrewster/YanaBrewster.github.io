@@ -176,13 +176,15 @@
 	@media (max-width: 575px) {
 		width: 60%;
 	}
+	@media (min-width: 1920px) {
+		width: 45%;
+	}
 }
 
 .button-font{
     text-align: center;
   	font-family: 'Libre Baskerville', serif;
     font-size: 1em;
-    width: 40%;
     margin: 0 auto;
 }
 

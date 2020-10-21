@@ -7638,33 +7638,34 @@ h1 {
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2em;
-  font-weight: 700;
+  font-weight: 900;
   color: #330033; }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
   text-align: center;
-  font-weight: 700;
+  font-weight: 900;
   color: #330033; }
 
 h4 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.25em;
   text-align: center;
-  font-weight: 700;
+  font-weight: 900;
   color: #333366; }
 
 h5 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
+  font-size: 1.15em;
   font-weight: 900;
-  font-size: 1em;
-  color: #333333; }
+  color: #333366; }
 
 p {
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
+  font-weight: 600;
   color: #333333;
   text-align: left; }
 
@@ -7674,7 +7675,7 @@ p {
   font-weight: 700; }
 
 .display-3 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-weight: 900;
   font-size: 2em;
@@ -7700,7 +7701,7 @@ p {
   width: 95%; }
   @media (min-width: 900px) {
     .text-container {
-      width: 55%; } }
+      width: 47.5%; } }
   @media (min-width: 1920px) {
     .text-container {
       width: 45%; } }
@@ -7785,6 +7786,11 @@ p {
   @media (max-width: 575px) {
     .banner-overlay {
       height: 100vh; } }
+
+.banner-motif {
+  background-image: url("images/bannermotif.png");
+  background-position: center;
+  background-size: cover; }
 
 .fa-angle-down {
   color: #333399;
@@ -7879,8 +7885,17 @@ p {
 
 .button-font {
   text-align: center;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   font-size: 1em;
+  margin: 0 auto; }
+
+.case-button-font {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.25em;
+  background-color: #330033;
   margin: 0 auto; }
 
 .card li {
@@ -7982,6 +7997,11 @@ a:active {
     .banner-overlay {
       height: 100vh; } }
 
+.banner-motif {
+  background-image: url("images/bannermotif.png");
+  background-position: center;
+  background-size: cover; }
+
 .fa-angle-down {
   color: #333399;
   font-size: 1.250em; }
@@ -8075,8 +8095,17 @@ a:active {
 
 .button-font {
   text-align: center;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   font-size: 1em;
+  margin: 0 auto; }
+
+.case-button-font {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.25em;
+  background-color: #330033;
   margin: 0 auto; }
 
 .card li {

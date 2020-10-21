@@ -61,6 +61,12 @@
 	}
 }
 
+.banner-motif{
+	background-image: url("images/bannermotif.png");
+	background-position: center; 
+	background-size: cover;
+}
+
  .fa-angle-down{
 	color: $cyan;
 	font-size: 1.250em;
@@ -183,10 +189,21 @@
 
 .button-font{
     text-align: center;
-  	font-family: 'Libre Baskerville', serif;
+  	font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
     font-size: 1em;
     margin: 0 auto;
 }
+
+.case-button-font{
+    text-align: center;
+  	font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+    font-size: 1.25em;
+		background-color: $purple;
+    margin: 0 auto;
+}
+
 
 
 .card li{

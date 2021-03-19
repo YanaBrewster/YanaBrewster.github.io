@@ -63,7 +63,7 @@
 
 .banner-motif{
 	background-image: url("images/bannermotif.png");
-	background-position: center; 
+	background-position: center;
 	background-size: cover;
 }
 
@@ -204,12 +204,75 @@
     margin: 0 auto;
 }
 
-
-
 .card li{
   margin-left: 3%;
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
   color: $gray;
   text-align: left;
+}
+
+// UI INTERACTIONS
+.port-video{
+	background-color: white;
+}
+
+.vid-container{
+	max-width: 960px !important;
+	// @media (max-width: 1050px){
+	// 	  width: 760px !important;
+	// }
+	// @media (max-width: 1200px){
+  //   width: 1000px !important;
+	// }
+	// @media (max-width: 1400px){
+	//     max-width: 1100px !important;
+	// }
+	// @media (min-width: 768px){
+	//     max-width: 720px !important;
+	// }
+	// @media (min-width: 576px){
+	//     max-width: 540px !important;
+	// }
+	// @media (max-width: 360px){
+	// 		max-width: 370px !important;
+	// }
+	// @media (max-width: 320px){
+	// 		max-width: 310px !important;
+	// }
+}
+
+.laptop {
+    position: relative;
+}
+
+.laptop-bg {
+    width: 100%;
+    max-width: 100%;
+}
+
+.video-crop {
+    position: absolute;
+    top: 10.5%;
+    left: 12%;
+    max-width: 75%;
+    height: 542px;
+    overflow: hidden;
+		@media (max-width: 767px){
+    height: 112px !important;
+		}
+		@media (max-width: 990px){
+		    height: 309px !important;
+		}
+		@media (max-width: 1200px){
+		    height: 408px !important;
+		}
+		@media (max-width: 1400px){
+		    height: 556px !important;
+		}
+}
+
+#portVideo {
+    width: 100%;
+    max-width: 100%;
 }

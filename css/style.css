@@ -7909,7 +7909,16 @@ p {
   background-color: white; }
 
 .vid-container {
-  max-width: 960px !important; }
+  max-width: 1300px !important; }
+  @media (max-width: 550px) {
+    .vid-container {
+      width: 340px !important; } }
+  @media (max-width: 767px) {
+    .vid-container {
+      width: 500px !important; } }
+  @media (max-width: 800px) {
+    .vid-container {
+      width: 700px !important; } }
   @media (max-width: 1050px) {
     .vid-container {
       width: 760px !important; } }
@@ -7919,18 +7928,6 @@ p {
   @media (max-width: 1400px) {
     .vid-container {
       max-width: 1100px !important; } }
-  @media (min-width: 768px) {
-    .vid-container {
-      max-width: 720px !important; } }
-  @media (min-width: 576px) {
-    .vid-container {
-      max-width: 540px !important; } }
-  @media (max-width: 360px) {
-    .vid-container {
-      max-width: 370px !important; } }
-  @media (max-width: 320px) {
-    .vid-container {
-      max-width: 310px !important; } }
 
 .laptop {
   position: relative; }
@@ -8177,7 +8174,16 @@ a:active {
   background-color: white; }
 
 .vid-container {
-  max-width: 960px !important; }
+  max-width: 1300px !important; }
+  @media (max-width: 550px) {
+    .vid-container {
+      width: 340px !important; } }
+  @media (max-width: 767px) {
+    .vid-container {
+      width: 500px !important; } }
+  @media (max-width: 800px) {
+    .vid-container {
+      width: 700px !important; } }
   @media (max-width: 1050px) {
     .vid-container {
       width: 760px !important; } }
@@ -8187,18 +8193,6 @@ a:active {
   @media (max-width: 1400px) {
     .vid-container {
       max-width: 1100px !important; } }
-  @media (min-width: 768px) {
-    .vid-container {
-      max-width: 720px !important; } }
-  @media (min-width: 576px) {
-    .vid-container {
-      max-width: 540px !important; } }
-  @media (max-width: 360px) {
-    .vid-container {
-      max-width: 370px !important; } }
-  @media (max-width: 320px) {
-    .vid-container {
-      max-width: 310px !important; } }
 
 .laptop {
   position: relative; }

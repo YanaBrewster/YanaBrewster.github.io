@@ -7909,57 +7909,48 @@ p {
   background-color: white; }
 
 .vid-container {
-  max-width: 960px !important; }
-  @media (max-width: 1400px) {
-    .vid-container {
-      max-width: 1100px !important; } }
-  @media (max-width: 1200px) {
-    .vid-container {
-      width: 1000px !important; } }
-  @media (max-width: 1050px) {
-    .vid-container {
-      width: 760px !important; } }
-  @media (min-width: 768px) {
-    .vid-container {
-      max-width: 720px !important; } }
-  @media (min-width: 576px) {
+  max-width: 320px !important; }
+  @media (min-width: 500px) {
     .vid-container {
       max-width: 540px !important; } }
-  @media (max-width: 360px) {
+  @media (min-width: 600px) {
     .vid-container {
-      max-width: 350px !important; } }
-  @media (max-width: 320px) {
+      max-width: 720px !important; } }
+  @media (max-width: 900px) {
     .vid-container {
-      max-width: 310px !important; } }
+      width: 760px !important; } }
+  @media (max-width: 1000px) {
+    .vid-container {
+      width: 940px !important; } }
 
-.laptop {
+.video-crop {
+  height: 298px;
+  left: 12%;
+  max-width: 75%;
+  overflow: hidden;
+  position: absolute;
+  top: 10.5%; }
+  @media (max-width: 500px) {
+    .video-crop {
+      height: 308px; } }
+  @media (max-width: 600px) {
+    .video-crop {
+      height: 408px; } }
+  @media (max-width: 900px) {
+    .video-crop {
+      height: 458px; } }
+  @media (max-width: 1000px) {
+    .video-crop {
+      height: 548px; } }
+
+.imac {
   position: relative; }
 
-.laptop-bg {
+.imac-bg {
   width: 100%;
   max-width: 100%; }
 
-.video-crop {
-  position: absolute;
-  top: 10.5%;
-  left: 12%;
-  max-width: 75%;
-  height: 542px;
-  overflow: hidden; }
-  @media (max-width: 767px) {
-    .video-crop {
-      height: 112px !important; } }
-  @media (max-width: 990px) {
-    .video-crop {
-      height: 309px !important; } }
-  @media (max-width: 1200px) {
-    .video-crop {
-      height: 408px !important; } }
-  @media (max-width: 1400px) {
-    .video-crop {
-      height: 556px !important; } }
-
-#portVideo {
+.video-port {
   width: 100%;
   max-width: 100%; }
 
@@ -8177,57 +8168,48 @@ a:active {
   background-color: white; }
 
 .vid-container {
-  max-width: 960px !important; }
-  @media (max-width: 1400px) {
-    .vid-container {
-      max-width: 1100px !important; } }
-  @media (max-width: 1200px) {
-    .vid-container {
-      width: 1000px !important; } }
-  @media (max-width: 1050px) {
-    .vid-container {
-      width: 760px !important; } }
-  @media (min-width: 768px) {
-    .vid-container {
-      max-width: 720px !important; } }
-  @media (min-width: 576px) {
+  max-width: 320px !important; }
+  @media (min-width: 500px) {
     .vid-container {
       max-width: 540px !important; } }
-  @media (max-width: 360px) {
+  @media (min-width: 600px) {
     .vid-container {
-      max-width: 350px !important; } }
-  @media (max-width: 320px) {
+      max-width: 720px !important; } }
+  @media (max-width: 900px) {
     .vid-container {
-      max-width: 310px !important; } }
+      width: 760px !important; } }
+  @media (max-width: 1000px) {
+    .vid-container {
+      width: 940px !important; } }
 
-.laptop {
+.video-crop {
+  height: 298px;
+  left: 12%;
+  max-width: 75%;
+  overflow: hidden;
+  position: absolute;
+  top: 10.5%; }
+  @media (max-width: 500px) {
+    .video-crop {
+      height: 308px; } }
+  @media (max-width: 600px) {
+    .video-crop {
+      height: 408px; } }
+  @media (max-width: 900px) {
+    .video-crop {
+      height: 458px; } }
+  @media (max-width: 1000px) {
+    .video-crop {
+      height: 548px; } }
+
+.imac {
   position: relative; }
 
-.laptop-bg {
+.imac-bg {
   width: 100%;
   max-width: 100%; }
 
-.video-crop {
-  position: absolute;
-  top: 10.5%;
-  left: 12%;
-  max-width: 75%;
-  height: 542px;
-  overflow: hidden; }
-  @media (max-width: 767px) {
-    .video-crop {
-      height: 112px !important; } }
-  @media (max-width: 990px) {
-    .video-crop {
-      height: 309px !important; } }
-  @media (max-width: 1200px) {
-    .video-crop {
-      height: 408px !important; } }
-  @media (max-width: 1400px) {
-    .video-crop {
-      height: 556px !important; } }
-
-#portVideo {
+.video-port {
   width: 100%;
   max-width: 100%; }
 

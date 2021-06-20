@@ -7698,7 +7698,7 @@ p {
     font-size: 1em; }
 
 .text-container {
-  width: 95%; }
+  width: 90%; }
   @media (min-width: 900px) {
     .text-container {
       width: 47.5%; } }

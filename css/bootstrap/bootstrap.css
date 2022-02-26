@@ -4,35 +4,34 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css?family=Cookie|Libre+Baskerville|Montserrat&display=swap");
 /* line 1, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_root.scss */
 :root {
-  --blue: #333366;
+  --blue: #007bff;
   --indigo: #6610f2;
-  --purple: #330033;
+  --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
   --orange: #fd7e14;
-  --yellow: #ffcc00;
+  --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
-  --cyan: #333399;
+  --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #333366;
+  --primary: #007bff;
   --secondary: #6c757d;
   --success: #28a745;
-  --info: #333399;
-  --warning: #ffcc00;
+  --info: #17a2b8;
+  --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
   --breakpoint-xs: 0;
-  --breakpoint-sm: 500px;
-  --breakpoint-md: 600px;
-  --breakpoint-lg: 900px;
-  --breakpoint-xl: 1000px;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
@@ -153,12 +152,12 @@ sup {
 
 /* line 182, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_reboot.scss */
 a {
-  color: #333366;
+  color: #007bff;
   text-decoration: none;
   background-color: transparent; }
   /* line 13, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
   a:hover {
-    color: #1a1a33;
+    color: #0056b3;
     text-decoration: underline; }
 
 /* line 199, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_reboot.scss */
@@ -543,19 +542,19 @@ pre {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
-  @media (min-width: 500px) {
+  @media (min-width: 576px) {
     /* line 6, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_grid.scss */
     .container {
       max-width: 540px; } }
-  @media (min-width: 600px) {
+  @media (min-width: 768px) {
     /* line 6, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_grid.scss */
     .container {
       max-width: 720px; } }
-  @media (min-width: 900px) {
+  @media (min-width: 992px) {
     /* line 6, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_grid.scss */
     .container {
       max-width: 960px; } }
-  @media (min-width: 1000px) {
+  @media (min-width: 1200px) {
     /* line 6, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_grid.scss */
     .container {
       max-width: 1140px; } }
@@ -773,7 +772,7 @@ pre {
 .offset-11 {
   margin-left: 91.66667%; }
 
-@media (min-width: 500px) {
+@media (min-width: 576px) {
   /* line 31, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_grid-framework.scss */
   .col-sm {
     flex-basis: 0;
@@ -914,7 +913,7 @@ pre {
   .offset-sm-11 {
     margin-left: 91.66667%; } }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   /* line 31, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_grid-framework.scss */
   .col-md {
     flex-basis: 0;
@@ -1055,7 +1054,7 @@ pre {
   .offset-md-11 {
     margin-left: 91.66667%; } }
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
   /* line 31, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_grid-framework.scss */
   .col-lg {
     flex-basis: 0;
@@ -1196,7 +1195,7 @@ pre {
   .offset-lg-11 {
     margin-left: 91.66667%; } }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   /* line 31, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_grid-framework.scss */
   .col-xl {
     flex-basis: 0;
@@ -1393,22 +1392,22 @@ pre {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #c6c6d4; }
+  background-color: #b8daff; }
 
 /* line 14, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_table-row.scss */
 .table-primary th,
 .table-primary td,
 .table-primary thead th,
 .table-primary tbody + tbody {
-  border-color: #9595af; }
+  border-color: #7abaff; }
 
 /* line 13, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
 .table-hover .table-primary:hover {
-  background-color: #b7b7c9; }
+  background-color: #9fcdff; }
   /* line 32, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_table-row.scss */
   .table-hover .table-primary:hover > td,
   .table-hover .table-primary:hover > th {
-    background-color: #b7b7c9; }
+    background-color: #9fcdff; }
 
 /* line 7, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_table-row.scss */
 .table-secondary,
@@ -1456,43 +1455,43 @@ pre {
 .table-info,
 .table-info > th,
 .table-info > td {
-  background-color: #c6c6e2; }
+  background-color: #bee5eb; }
 
 /* line 14, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_table-row.scss */
 .table-info th,
 .table-info td,
 .table-info thead th,
 .table-info tbody + tbody {
-  border-color: #9595ca; }
+  border-color: #86cfda; }
 
 /* line 13, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
 .table-hover .table-info:hover {
-  background-color: #b5b5d9; }
+  background-color: #abdde5; }
   /* line 32, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_table-row.scss */
   .table-hover .table-info:hover > td,
   .table-hover .table-info:hover > th {
-    background-color: #b5b5d9; }
+    background-color: #abdde5; }
 
 /* line 7, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_table-row.scss */
 .table-warning,
 .table-warning > th,
 .table-warning > td {
-  background-color: #fff1b8; }
+  background-color: #ffeeba; }
 
 /* line 14, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_table-row.scss */
 .table-warning th,
 .table-warning td,
 .table-warning thead th,
 .table-warning tbody + tbody {
-  border-color: #ffe47a; }
+  border-color: #ffdf7e; }
 
 /* line 13, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
 .table-hover .table-warning:hover {
-  background-color: #ffec9f; }
+  background-color: #ffe8a1; }
   /* line 32, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_table-row.scss */
   .table-hover .table-warning:hover > td,
   .table-hover .table-warning:hover > th {
-    background-color: #ffec9f; }
+    background-color: #ffe8a1; }
 
 /* line 7, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_table-row.scss */
 .table-danger,
@@ -1603,7 +1602,7 @@ pre {
     color: #fff;
     background-color: rgba(255, 255, 255, 0.075); }
 
-@media (max-width: 499.98px) {
+@media (max-width: 575.98px) {
   /* line 171, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_tables.scss */
   .table-responsive-sm {
     display: block;
@@ -1614,7 +1613,7 @@ pre {
     .table-responsive-sm > .table-bordered {
       border: 0; } }
 
-@media (max-width: 599.98px) {
+@media (max-width: 767.98px) {
   /* line 171, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_tables.scss */
   .table-responsive-md {
     display: block;
@@ -1625,7 +1624,7 @@ pre {
     .table-responsive-md > .table-bordered {
       border: 0; } }
 
-@media (max-width: 899.98px) {
+@media (max-width: 991.98px) {
   /* line 171, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_tables.scss */
   .table-responsive-lg {
     display: block;
@@ -1636,7 +1635,7 @@ pre {
     .table-responsive-lg > .table-bordered {
       border: 0; } }
 
-@media (max-width: 999.98px) {
+@media (max-width: 1199.98px) {
   /* line 171, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_tables.scss */
   .table-responsive-xl {
     display: block;
@@ -1684,9 +1683,9 @@ pre {
   .form-control:focus {
     color: #495057;
     background-color: #fff;
-    border-color: #6666b3;
+    border-color: #80bdff;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(51, 51, 102, 0.25); }
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
   /* line 37, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_forms.scss */
   .form-control::placeholder {
     color: #6c757d;
@@ -2067,7 +2066,7 @@ textarea.form-control {
   /* line 266, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_forms.scss */
   .form-inline .form-check {
     width: 100%; }
-  @media (min-width: 500px) {
+  @media (min-width: 576px) {
     /* line 272, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_forms.scss */
     .form-inline label {
       display: flex;
@@ -2141,7 +2140,7 @@ textarea.form-control {
   /* line 25, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_buttons.scss */
   .btn:focus, .btn.focus {
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(51, 51, 102, 0.25); }
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
   /* line 32, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_buttons.scss */
   .btn.disabled, .btn:disabled {
     opacity: 0.65; }
@@ -2154,31 +2153,31 @@ fieldset:disabled a.btn {
 /* line 60, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_buttons.scss */
 .btn-primary {
   color: #fff;
-  background-color: #333366;
-  border-color: #333366; }
+  background-color: #007bff;
+  border-color: #007bff; }
   /* line 13, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
   .btn-primary:hover {
     color: #fff;
-    background-color: #26264d;
-    border-color: #222244; }
+    background-color: #0069d9;
+    border-color: #0062cc; }
   /* line 18, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
   .btn-primary:focus, .btn-primary.focus {
-    box-shadow: 0 0 0 0.2rem rgba(82, 82, 125, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5); }
   /* line 29, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
   .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
-    background-color: #333366;
-    border-color: #333366; }
+    background-color: #007bff;
+    border-color: #007bff; }
   /* line 40, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #222244;
-    border-color: #1e1e3c; }
+    background-color: #0062cc;
+    border-color: #005cbf; }
     /* line 50, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
     .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-primary.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(82, 82, 125, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5); }
 
 /* line 60, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_buttons.scss */
 .btn-secondary {
@@ -2241,60 +2240,60 @@ fieldset:disabled a.btn {
 /* line 60, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_buttons.scss */
 .btn-info {
   color: #fff;
-  background-color: #333399;
-  border-color: #333399; }
+  background-color: #17a2b8;
+  border-color: #17a2b8; }
   /* line 13, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
   .btn-info:hover {
     color: #fff;
-    background-color: #29297c;
-    border-color: #262673; }
+    background-color: #138496;
+    border-color: #117a8b; }
   /* line 18, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
   .btn-info:focus, .btn-info.focus {
-    box-shadow: 0 0 0 0.2rem rgba(82, 82, 168, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5); }
   /* line 29, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
   .btn-info.disabled, .btn-info:disabled {
     color: #fff;
-    background-color: #333399;
-    border-color: #333399; }
+    background-color: #17a2b8;
+    border-color: #17a2b8; }
   /* line 40, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
   .btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active,
   .show > .btn-info.dropdown-toggle {
     color: #fff;
-    background-color: #262673;
-    border-color: #232369; }
+    background-color: #117a8b;
+    border-color: #10707f; }
     /* line 50, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
     .btn-info:not(:disabled):not(.disabled):active:focus, .btn-info:not(:disabled):not(.disabled).active:focus,
     .show > .btn-info.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(82, 82, 168, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5); }
 
 /* line 60, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_buttons.scss */
 .btn-warning {
   color: #212529;
-  background-color: #ffcc00;
-  border-color: #ffcc00; }
+  background-color: #ffc107;
+  border-color: #ffc107; }
   /* line 13, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
   .btn-warning:hover {
     color: #212529;
-    background-color: #d9ad00;
-    border-color: #cca300; }
+    background-color: #e0a800;
+    border-color: #d39e00; }
   /* line 18, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
   .btn-warning:focus, .btn-warning.focus {
-    box-shadow: 0 0 0 0.2rem rgba(222, 179, 6, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5); }
   /* line 29, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
   .btn-warning.disabled, .btn-warning:disabled {
     color: #212529;
-    background-color: #ffcc00;
-    border-color: #ffcc00; }
+    background-color: #ffc107;
+    border-color: #ffc107; }
   /* line 40, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
   .btn-warning:not(:disabled):not(.disabled):active, .btn-warning:not(:disabled):not(.disabled).active,
   .show > .btn-warning.dropdown-toggle {
     color: #212529;
-    background-color: #cca300;
-    border-color: #bf9900; }
+    background-color: #d39e00;
+    border-color: #c69500; }
     /* line 50, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
     .btn-warning:not(:disabled):not(.disabled):active:focus, .btn-warning:not(:disabled):not(.disabled).active:focus,
     .show > .btn-warning.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(222, 179, 6, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5); }
 
 /* line 60, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_buttons.scss */
 .btn-danger {
@@ -2385,30 +2384,30 @@ fieldset:disabled a.btn {
 
 /* line 66, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_buttons.scss */
 .btn-outline-primary {
-  color: #333366;
-  border-color: #333366; }
+  color: #007bff;
+  border-color: #007bff; }
   /* line 13, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
   .btn-outline-primary:hover {
     color: #fff;
-    background-color: #333366;
-    border-color: #333366; }
+    background-color: #007bff;
+    border-color: #007bff; }
   /* line 71, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
   .btn-outline-primary:focus, .btn-outline-primary.focus {
-    box-shadow: 0 0 0 0.2rem rgba(51, 51, 102, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }
   /* line 76, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
   .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-    color: #333366;
+    color: #007bff;
     background-color: transparent; }
   /* line 82, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
   .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
   .show > .btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: #333366;
-    border-color: #333366; }
+    background-color: #007bff;
+    border-color: #007bff; }
     /* line 89, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
     .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-primary.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(51, 51, 102, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }
 
 /* line 66, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_buttons.scss */
 .btn-outline-secondary {
@@ -2466,57 +2465,57 @@ fieldset:disabled a.btn {
 
 /* line 66, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_buttons.scss */
 .btn-outline-info {
-  color: #333399;
-  border-color: #333399; }
+  color: #17a2b8;
+  border-color: #17a2b8; }
   /* line 13, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
   .btn-outline-info:hover {
     color: #fff;
-    background-color: #333399;
-    border-color: #333399; }
+    background-color: #17a2b8;
+    border-color: #17a2b8; }
   /* line 71, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
   .btn-outline-info:focus, .btn-outline-info.focus {
-    box-shadow: 0 0 0 0.2rem rgba(51, 51, 153, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5); }
   /* line 76, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
   .btn-outline-info.disabled, .btn-outline-info:disabled {
-    color: #333399;
+    color: #17a2b8;
     background-color: transparent; }
   /* line 82, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
   .btn-outline-info:not(:disabled):not(.disabled):active, .btn-outline-info:not(:disabled):not(.disabled).active,
   .show > .btn-outline-info.dropdown-toggle {
     color: #fff;
-    background-color: #333399;
-    border-color: #333399; }
+    background-color: #17a2b8;
+    border-color: #17a2b8; }
     /* line 89, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
     .btn-outline-info:not(:disabled):not(.disabled):active:focus, .btn-outline-info:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-info.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(51, 51, 153, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5); }
 
 /* line 66, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_buttons.scss */
 .btn-outline-warning {
-  color: #ffcc00;
-  border-color: #ffcc00; }
+  color: #ffc107;
+  border-color: #ffc107; }
   /* line 13, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
   .btn-outline-warning:hover {
     color: #212529;
-    background-color: #ffcc00;
-    border-color: #ffcc00; }
+    background-color: #ffc107;
+    border-color: #ffc107; }
   /* line 71, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
   .btn-outline-warning:focus, .btn-outline-warning.focus {
-    box-shadow: 0 0 0 0.2rem rgba(255, 204, 0, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5); }
   /* line 76, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
   .btn-outline-warning.disabled, .btn-outline-warning:disabled {
-    color: #ffcc00;
+    color: #ffc107;
     background-color: transparent; }
   /* line 82, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
   .btn-outline-warning:not(:disabled):not(.disabled):active, .btn-outline-warning:not(:disabled):not(.disabled).active,
   .show > .btn-outline-warning.dropdown-toggle {
     color: #212529;
-    background-color: #ffcc00;
-    border-color: #ffcc00; }
+    background-color: #ffc107;
+    border-color: #ffc107; }
     /* line 89, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_buttons.scss */
     .btn-outline-warning:not(:disabled):not(.disabled):active:focus, .btn-outline-warning:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-warning.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(255, 204, 0, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5); }
 
 /* line 66, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_buttons.scss */
 .btn-outline-danger {
@@ -2602,11 +2601,11 @@ fieldset:disabled a.btn {
 /* line 77, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_buttons.scss */
 .btn-link {
   font-weight: 400;
-  color: #333366;
+  color: #007bff;
   text-decoration: none; }
   /* line 13, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
   .btn-link:hover {
-    color: #1a1a33;
+    color: #0056b3;
     text-decoration: underline; }
   /* line 87, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_buttons.scss */
   .btn-link:focus, .btn-link.focus {
@@ -2725,7 +2724,7 @@ input[type="button"].btn-block {
   right: 0;
   left: auto; }
 
-@media (min-width: 500px) {
+@media (min-width: 576px) {
   /* line 42, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_dropdown.scss */
   .dropdown-menu-sm-left {
     right: auto;
@@ -2735,7 +2734,7 @@ input[type="button"].btn-block {
     right: 0;
     left: auto; } }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   /* line 42, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_dropdown.scss */
   .dropdown-menu-md-left {
     right: auto;
@@ -2745,7 +2744,7 @@ input[type="button"].btn-block {
     right: 0;
     left: auto; } }
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
   /* line 42, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_dropdown.scss */
   .dropdown-menu-lg-left {
     right: auto;
@@ -2755,7 +2754,7 @@ input[type="button"].btn-block {
     right: 0;
     left: auto; } }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   /* line 42, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_dropdown.scss */
   .dropdown-menu-xl-left {
     right: auto;
@@ -2884,7 +2883,7 @@ input[type="button"].btn-block {
   .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #333366; }
+    background-color: #007bff; }
   /* line 160, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_dropdown.scss */
   .dropdown-item.disabled, .dropdown-item:disabled {
     color: #6c757d;
@@ -3211,19 +3210,19 @@ input[type="button"].btn-block {
   /* line 27, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
   .custom-control-input:checked ~ .custom-control-label::before {
     color: #fff;
-    border-color: #333366;
-    background-color: #333366; }
+    border-color: #007bff;
+    background-color: #007bff; }
   /* line 34, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
   .custom-control-input:focus ~ .custom-control-label::before {
-    box-shadow: 0 0 0 0.2rem rgba(51, 51, 102, 0.25); }
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
   /* line 43, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
   .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
-    border-color: #6666b3; }
+    border-color: #80bdff; }
   /* line 47, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
   .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
     color: #fff;
-    background-color: #8888c4;
-    border-color: #8888c4; }
+    background-color: #b3d7ff;
+    border-color: #b3d7ff; }
   /* line 55, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
   .custom-control-input:disabled ~ .custom-control-label {
     color: #6c757d; }
@@ -3269,8 +3268,8 @@ input[type="button"].btn-block {
 
 /* line 119, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #333366;
-  background-color: #333366; }
+  border-color: #007bff;
+  background-color: #007bff; }
 
 /* line 124, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
@@ -3278,11 +3277,11 @@ input[type="button"].btn-block {
 
 /* line 130, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
 .custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(51, 51, 102, 0.5); }
+  background-color: rgba(0, 123, 255, 0.5); }
 
 /* line 133, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
 .custom-checkbox .custom-control-input:disabled:indeterminate ~ .custom-control-label::before {
-  background-color: rgba(51, 51, 102, 0.5); }
+  background-color: rgba(0, 123, 255, 0.5); }
 
 /* line 144, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
 .custom-radio .custom-control-label::before {
@@ -3294,7 +3293,7 @@ input[type="button"].btn-block {
 
 /* line 156, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
 .custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(51, 51, 102, 0.5); }
+  background-color: rgba(0, 123, 255, 0.5); }
 
 /* line 167, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
 .custom-switch {
@@ -3324,7 +3323,7 @@ input[type="button"].btn-block {
     transform: translateX(0.75rem); }
   /* line 199, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
   .custom-switch .custom-control-input:disabled:checked ~ .custom-control-label::before {
-    background-color: rgba(51, 51, 102, 0.5); }
+    background-color: rgba(0, 123, 255, 0.5); }
 
 /* line 212, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
 .custom-select {
@@ -3344,9 +3343,9 @@ input[type="button"].btn-block {
   appearance: none; }
   /* line 230, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
   .custom-select:focus {
-    border-color: #6666b3;
+    border-color: #80bdff;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(51, 51, 102, 0.25); }
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
     /* line 239, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
     .custom-select:focus::-ms-value {
       color: #495057;
@@ -3398,8 +3397,8 @@ input[type="button"].btn-block {
   opacity: 0; }
   /* line 305, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
   .custom-file-input:focus ~ .custom-file-label {
-    border-color: #6666b3;
-    box-shadow: 0 0 0 0.2rem rgba(51, 51, 102, 0.25); }
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
   /* line 310, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
   .custom-file-input:disabled ~ .custom-file-label {
     background-color: #e9ecef; }
@@ -3454,13 +3453,13 @@ input[type="button"].btn-block {
     outline: none; }
     /* line 378, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
     .custom-range:focus::-webkit-slider-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(51, 51, 102, 0.25); }
+      box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
     /* line 379, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
     .custom-range:focus::-moz-range-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(51, 51, 102, 0.25); }
+      box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
     /* line 380, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
     .custom-range:focus::-ms-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(51, 51, 102, 0.25); }
+      box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
   /* line 383, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
   .custom-range::-moz-focus-outer {
     border: 0; }
@@ -3469,7 +3468,7 @@ input[type="button"].btn-block {
     width: 1rem;
     height: 1rem;
     margin-top: -0.25rem;
-    background-color: #333366;
+    background-color: #007bff;
     border: 0;
     border-radius: 1rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3480,7 +3479,7 @@ input[type="button"].btn-block {
         transition: none; } }
     /* line 398, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
     .custom-range::-webkit-slider-thumb:active {
-      background-color: #8888c4; }
+      background-color: #b3d7ff; }
   /* line 403, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
   .custom-range::-webkit-slider-runnable-track {
     width: 100%;
@@ -3494,7 +3493,7 @@ input[type="button"].btn-block {
   .custom-range::-moz-range-thumb {
     width: 1rem;
     height: 1rem;
-    background-color: #333366;
+    background-color: #007bff;
     border: 0;
     border-radius: 1rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3505,7 +3504,7 @@ input[type="button"].btn-block {
         transition: none; } }
     /* line 424, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
     .custom-range::-moz-range-thumb:active {
-      background-color: #8888c4; }
+      background-color: #b3d7ff; }
   /* line 429, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
   .custom-range::-moz-range-track {
     width: 100%;
@@ -3522,7 +3521,7 @@ input[type="button"].btn-block {
     margin-top: 0;
     margin-right: 0.2rem;
     margin-left: 0.2rem;
-    background-color: #333366;
+    background-color: #007bff;
     border: 0;
     border-radius: 1rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3533,7 +3532,7 @@ input[type="button"].btn-block {
         transition: none; } }
     /* line 453, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
     .custom-range::-ms-thumb:active {
-      background-color: #8888c4; }
+      background-color: #b3d7ff; }
   /* line 458, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_custom-forms.scss */
   .custom-range::-ms-track {
     width: 100%;
@@ -3640,7 +3639,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #333366; }
+  background-color: #007bff; }
 
 /* line 94, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_nav.scss */
 .nav-fill .nav-item {
@@ -3740,14 +3739,14 @@ input[type="button"].btn-block {
   background: no-repeat center center;
   background-size: 100% 100%; }
 
-@media (max-width: 499.98px) {
+@media (max-width: 575.98px) {
   /* line 142, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_navbar.scss */
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
 
-@media (min-width: 500px) {
+@media (min-width: 576px) {
   /* line 140, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_navbar.scss */
   .navbar-expand-sm {
     flex-flow: row nowrap;
@@ -3774,14 +3773,14 @@ input[type="button"].btn-block {
     .navbar-expand-sm .navbar-toggler {
       display: none; } }
 
-@media (max-width: 599.98px) {
+@media (max-width: 767.98px) {
   /* line 142, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_navbar.scss */
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   /* line 140, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_navbar.scss */
   .navbar-expand-md {
     flex-flow: row nowrap;
@@ -3808,14 +3807,14 @@ input[type="button"].btn-block {
     .navbar-expand-md .navbar-toggler {
       display: none; } }
 
-@media (max-width: 899.98px) {
+@media (max-width: 991.98px) {
   /* line 142, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_navbar.scss */
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
   /* line 140, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_navbar.scss */
   .navbar-expand-lg {
     flex-flow: row nowrap;
@@ -3842,14 +3841,14 @@ input[type="button"].btn-block {
     .navbar-expand-lg .navbar-toggler {
       display: none; } }
 
-@media (max-width: 999.98px) {
+@media (max-width: 1199.98px) {
   /* line 142, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_navbar.scss */
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   /* line 140, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_navbar.scss */
   .navbar-expand-xl {
     flex-flow: row nowrap;
@@ -4110,7 +4109,7 @@ input[type="button"].btn-block {
   /* line 147, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_card.scss */
   .card-deck .card {
     margin-bottom: 15px; }
-  @media (min-width: 500px) {
+  @media (min-width: 576px) {
     /* line 143, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_card.scss */
     .card-deck {
       flex-flow: row wrap;
@@ -4132,7 +4131,7 @@ input[type="button"].btn-block {
   /* line 179, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_card.scss */
   .card-group > .card {
     margin-bottom: 15px; }
-  @media (min-width: 500px) {
+  @media (min-width: 576px) {
     /* line 173, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_card.scss */
     .card-group {
       flex-flow: row wrap; }
@@ -4173,7 +4172,7 @@ input[type="button"].btn-block {
 .card-columns .card {
   margin-bottom: 0.75rem; }
 
-@media (min-width: 500px) {
+@media (min-width: 576px) {
   /* line 238, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_card.scss */
   .card-columns {
     column-count: 3;
@@ -4254,13 +4253,13 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #333366;
+  color: #007bff;
   background-color: #fff;
   border: 1px solid #dee2e6; }
   /* line 17, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_pagination.scss */
   .page-link:hover {
     z-index: 2;
-    color: #1a1a33;
+    color: #0056b3;
     text-decoration: none;
     background-color: #e9ecef;
     border-color: #dee2e6; }
@@ -4268,7 +4267,7 @@ input[type="button"].btn-block {
   .page-link:focus {
     z-index: 2;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(51, 51, 102, 0.25); }
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
 
 /* line 34, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_pagination.scss */
 .page-item:first-child .page-link {
@@ -4285,8 +4284,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #333366;
-  border-color: #333366; }
+  background-color: #007bff;
+  border-color: #007bff; }
 
 /* line 52, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_pagination.scss */
 .page-item.disabled .page-link {
@@ -4365,15 +4364,15 @@ input[type="button"].btn-block {
 /* line 51, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_badge.scss */
 .badge-primary {
   color: #fff;
-  background-color: #333366; }
+  background-color: #007bff; }
   /* line 17, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
   a.badge-primary:hover, a.badge-primary:focus {
     color: #fff;
-    background-color: #222244; }
+    background-color: #0062cc; }
   /* line 11, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_badge.scss */
   a.badge-primary:focus, a.badge-primary.focus {
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(51, 51, 102, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }
 
 /* line 51, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_badge.scss */
 .badge-secondary {
@@ -4404,28 +4403,28 @@ input[type="button"].btn-block {
 /* line 51, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_badge.scss */
 .badge-info {
   color: #fff;
-  background-color: #333399; }
+  background-color: #17a2b8; }
   /* line 17, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
   a.badge-info:hover, a.badge-info:focus {
     color: #fff;
-    background-color: #262673; }
+    background-color: #117a8b; }
   /* line 11, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_badge.scss */
   a.badge-info:focus, a.badge-info.focus {
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(51, 51, 153, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5); }
 
 /* line 51, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_badge.scss */
 .badge-warning {
   color: #212529;
-  background-color: #ffcc00; }
+  background-color: #ffc107; }
   /* line 17, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
   a.badge-warning:hover, a.badge-warning:focus {
     color: #212529;
-    background-color: #cca300; }
+    background-color: #d39e00; }
   /* line 11, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_badge.scss */
   a.badge-warning:focus, a.badge-warning.focus {
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(255, 204, 0, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5); }
 
 /* line 51, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_badge.scss */
 .badge-danger {
@@ -4472,7 +4471,7 @@ input[type="button"].btn-block {
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem; }
-  @media (min-width: 500px) {
+  @media (min-width: 576px) {
     /* line 1, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_jumbotron.scss */
     .jumbotron {
       padding: 4rem 2rem; } }
@@ -4512,15 +4511,15 @@ input[type="button"].btn-block {
 
 /* line 48, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_alert.scss */
 .alert-primary {
-  color: #1b1b35;
-  background-color: #d6d6e0;
-  border-color: #c6c6d4; }
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff; }
   /* line 6, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_alert.scss */
   .alert-primary hr {
-    border-top-color: #b7b7c9; }
+    border-top-color: #9fcdff; }
   /* line 10, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_alert.scss */
   .alert-primary .alert-link {
-    color: #0a0a13; }
+    color: #002752; }
 
 /* line 48, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_alert.scss */
 .alert-secondary {
@@ -4548,27 +4547,27 @@ input[type="button"].btn-block {
 
 /* line 48, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_alert.scss */
 .alert-info {
-  color: #1b1b50;
-  background-color: #d6d6eb;
-  border-color: #c6c6e2; }
+  color: #0c5460;
+  background-color: #d1ecf1;
+  border-color: #bee5eb; }
   /* line 6, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_alert.scss */
   .alert-info hr {
-    border-top-color: #b5b5d9; }
+    border-top-color: #abdde5; }
   /* line 10, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_alert.scss */
   .alert-info .alert-link {
-    color: #0e0e2a; }
+    color: #062c33; }
 
 /* line 48, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_alert.scss */
 .alert-warning {
-  color: #856a00;
-  background-color: #fff5cc;
-  border-color: #fff1b8; }
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba; }
   /* line 6, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_alert.scss */
   .alert-warning hr {
-    border-top-color: #ffec9f; }
+    border-top-color: #ffe8a1; }
   /* line 10, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_alert.scss */
   .alert-warning .alert-link {
-    color: #524100; }
+    color: #533f03; }
 
 /* line 48, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_alert.scss */
 .alert-danger {
@@ -4629,7 +4628,7 @@ input[type="button"].btn-block {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #333366;
+  background-color: #007bff;
   transition: width 0.6s ease; }
   @media (prefers-reduced-motion: reduce) {
     /* line 19, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_progress.scss */
@@ -4707,8 +4706,8 @@ input[type="button"].btn-block {
   .list-group-item.active {
     z-index: 2;
     color: #fff;
-    background-color: #333366;
-    border-color: #333366; }
+    background-color: #007bff;
+    border-color: #007bff; }
 
 /* line 88, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_list-group.scss */
 .list-group-horizontal {
@@ -4729,7 +4728,7 @@ input[type="button"].btn-block {
       border-bottom-right-radius: 0.25rem;
       border-bottom-left-radius: 0; }
 
-@media (min-width: 500px) {
+@media (min-width: 576px) {
   /* line 88, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_list-group.scss */
   .list-group-horizontal-sm {
     flex-direction: row; }
@@ -4749,7 +4748,7 @@ input[type="button"].btn-block {
         border-bottom-right-radius: 0.25rem;
         border-bottom-left-radius: 0; } }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   /* line 88, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_list-group.scss */
   .list-group-horizontal-md {
     flex-direction: row; }
@@ -4769,7 +4768,7 @@ input[type="button"].btn-block {
         border-bottom-right-radius: 0.25rem;
         border-bottom-left-radius: 0; } }
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
   /* line 88, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_list-group.scss */
   .list-group-horizontal-lg {
     flex-direction: row; }
@@ -4789,7 +4788,7 @@ input[type="button"].btn-block {
         border-bottom-right-radius: 0.25rem;
         border-bottom-left-radius: 0; } }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   /* line 88, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_list-group.scss */
   .list-group-horizontal-xl {
     flex-direction: row; }
@@ -4829,17 +4828,17 @@ input[type="button"].btn-block {
 
 /* line 4, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_list-group.scss */
 .list-group-item-primary {
-  color: #1b1b35;
-  background-color: #c6c6d4; }
+  color: #004085;
+  background-color: #b8daff; }
   /* line 17, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
   .list-group-item-primary.list-group-item-action:hover, .list-group-item-primary.list-group-item-action:focus {
-    color: #1b1b35;
-    background-color: #b7b7c9; }
+    color: #004085;
+    background-color: #9fcdff; }
   /* line 14, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_list-group.scss */
   .list-group-item-primary.list-group-item-action.active {
     color: #fff;
-    background-color: #1b1b35;
-    border-color: #1b1b35; }
+    background-color: #004085;
+    border-color: #004085; }
 
 /* line 4, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_list-group.scss */
 .list-group-item-secondary {
@@ -4871,31 +4870,31 @@ input[type="button"].btn-block {
 
 /* line 4, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_list-group.scss */
 .list-group-item-info {
-  color: #1b1b50;
-  background-color: #c6c6e2; }
+  color: #0c5460;
+  background-color: #bee5eb; }
   /* line 17, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
   .list-group-item-info.list-group-item-action:hover, .list-group-item-info.list-group-item-action:focus {
-    color: #1b1b50;
-    background-color: #b5b5d9; }
+    color: #0c5460;
+    background-color: #abdde5; }
   /* line 14, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_list-group.scss */
   .list-group-item-info.list-group-item-action.active {
     color: #fff;
-    background-color: #1b1b50;
-    border-color: #1b1b50; }
+    background-color: #0c5460;
+    border-color: #0c5460; }
 
 /* line 4, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_list-group.scss */
 .list-group-item-warning {
-  color: #856a00;
-  background-color: #fff1b8; }
+  color: #856404;
+  background-color: #ffeeba; }
   /* line 17, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
   .list-group-item-warning.list-group-item-action:hover, .list-group-item-warning.list-group-item-action:focus {
-    color: #856a00;
-    background-color: #ffec9f; }
+    color: #856404;
+    background-color: #ffe8a1; }
   /* line 14, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_list-group.scss */
   .list-group-item-warning.list-group-item-action.active {
     color: #fff;
-    background-color: #856a00;
-    border-color: #856a00; }
+    background-color: #856404;
+    border-color: #856404; }
 
 /* line 4, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_list-group.scss */
 .list-group-item-danger {
@@ -5161,7 +5160,7 @@ a.close.disabled {
   height: 50px;
   overflow: scroll; }
 
-@media (min-width: 500px) {
+@media (min-width: 576px) {
   /* line 192, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_modal.scss */
   .modal-dialog {
     max-width: 500px;
@@ -5182,13 +5181,13 @@ a.close.disabled {
   .modal-sm {
     max-width: 300px; } }
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
   /* line 221, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_modal.scss */
   .modal-lg,
   .modal-xl {
     max-width: 800px; } }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   /* line 228, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_modal.scss */
   .modal-xl {
     max-width: 1140px; } }
@@ -5683,13 +5682,13 @@ a.close.disabled {
 
 /* line 6, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_background-variant.scss */
 .bg-primary {
-  background-color: #333366 !important; }
+  background-color: #007bff !important; }
 
 /* line 17, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #222244 !important; }
+  background-color: #0062cc !important; }
 
 /* line 6, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_background-variant.scss */
 .bg-secondary {
@@ -5713,23 +5712,23 @@ button.bg-success:focus {
 
 /* line 6, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_background-variant.scss */
 .bg-info {
-  background-color: #333399 !important; }
+  background-color: #17a2b8 !important; }
 
 /* line 17, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
 a.bg-info:hover, a.bg-info:focus,
 button.bg-info:hover,
 button.bg-info:focus {
-  background-color: #262673 !important; }
+  background-color: #117a8b !important; }
 
 /* line 6, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_background-variant.scss */
 .bg-warning {
-  background-color: #ffcc00 !important; }
+  background-color: #ffc107 !important; }
 
 /* line 17, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
 a.bg-warning:hover, a.bg-warning:focus,
 button.bg-warning:hover,
 button.bg-warning:focus {
-  background-color: #cca300 !important; }
+  background-color: #d39e00 !important; }
 
 /* line 6, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_background-variant.scss */
 .bg-danger {
@@ -5811,7 +5810,7 @@ button.bg-dark:focus {
 
 /* line 20, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_borders.scss */
 .border-primary {
-  border-color: #333366 !important; }
+  border-color: #007bff !important; }
 
 /* line 20, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_borders.scss */
 .border-secondary {
@@ -5823,11 +5822,11 @@ button.bg-dark:focus {
 
 /* line 20, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_borders.scss */
 .border-info {
-  border-color: #333399 !important; }
+  border-color: #17a2b8 !important; }
 
 /* line 20, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_borders.scss */
 .border-warning {
-  border-color: #ffcc00 !important; }
+  border-color: #ffc107 !important; }
 
 /* line 20, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_borders.scss */
 .border-danger {
@@ -5931,7 +5930,7 @@ button.bg-dark:focus {
 .d-inline-flex {
   display: inline-flex !important; }
 
-@media (min-width: 500px) {
+@media (min-width: 576px) {
   /* line 12, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_display.scss */
   .d-sm-none {
     display: none !important; }
@@ -5960,7 +5959,7 @@ button.bg-dark:focus {
   .d-sm-inline-flex {
     display: inline-flex !important; } }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   /* line 12, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_display.scss */
   .d-md-none {
     display: none !important; }
@@ -5989,7 +5988,7 @@ button.bg-dark:focus {
   .d-md-inline-flex {
     display: inline-flex !important; } }
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
   /* line 12, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_display.scss */
   .d-lg-none {
     display: none !important; }
@@ -6018,7 +6017,7 @@ button.bg-dark:focus {
   .d-lg-inline-flex {
     display: inline-flex !important; } }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   /* line 12, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_display.scss */
   .d-xl-none {
     display: none !important; }
@@ -6253,7 +6252,7 @@ button.bg-dark:focus {
 .align-self-stretch {
   align-self: stretch !important; }
 
-@media (min-width: 500px) {
+@media (min-width: 576px) {
   /* line 11, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_flex.scss */
   .flex-sm-row {
     flex-direction: row !important; }
@@ -6357,7 +6356,7 @@ button.bg-dark:focus {
   .align-self-sm-stretch {
     align-self: stretch !important; } }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   /* line 11, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_flex.scss */
   .flex-md-row {
     flex-direction: row !important; }
@@ -6461,7 +6460,7 @@ button.bg-dark:focus {
   .align-self-md-stretch {
     align-self: stretch !important; } }
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
   /* line 11, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_flex.scss */
   .flex-lg-row {
     flex-direction: row !important; }
@@ -6565,7 +6564,7 @@ button.bg-dark:focus {
   .align-self-lg-stretch {
     align-self: stretch !important; } }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   /* line 11, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_flex.scss */
   .flex-xl-row {
     flex-direction: row !important; }
@@ -6681,7 +6680,7 @@ button.bg-dark:focus {
 .float-none {
   float: none !important; }
 
-@media (min-width: 500px) {
+@media (min-width: 576px) {
   /* line 7, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_float.scss */
   .float-sm-left {
     float: left !important; }
@@ -6692,7 +6691,7 @@ button.bg-dark:focus {
   .float-sm-none {
     float: none !important; } }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   /* line 7, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_float.scss */
   .float-md-left {
     float: left !important; }
@@ -6703,7 +6702,7 @@ button.bg-dark:focus {
   .float-md-none {
     float: none !important; } }
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
   /* line 7, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_float.scss */
   .float-lg-left {
     float: left !important; }
@@ -6714,7 +6713,7 @@ button.bg-dark:focus {
   .float-lg-none {
     float: none !important; } }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   /* line 7, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_float.scss */
   .float-xl-left {
     float: left !important; }
@@ -7320,7 +7319,7 @@ button.bg-dark:focus {
 .mx-auto {
   margin-left: auto !important; }
 
-@media (min-width: 500px) {
+@media (min-width: 576px) {
   /* line 11, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_spacing.scss */
   .m-sm-0 {
     margin: 0 !important; }
@@ -7664,7 +7663,7 @@ button.bg-dark:focus {
   .mx-sm-auto {
     margin-left: auto !important; } }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   /* line 11, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_spacing.scss */
   .m-md-0 {
     margin: 0 !important; }
@@ -8008,7 +8007,7 @@ button.bg-dark:focus {
   .mx-md-auto {
     margin-left: auto !important; } }
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
   /* line 11, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_spacing.scss */
   .m-lg-0 {
     margin: 0 !important; }
@@ -8352,7 +8351,7 @@ button.bg-dark:focus {
   .mx-lg-auto {
     margin-left: auto !important; } }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   /* line 11, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_spacing.scss */
   .m-xl-0 {
     margin: 0 !important; }
@@ -8730,7 +8729,7 @@ button.bg-dark:focus {
 .text-center {
   text-align: center !important; }
 
-@media (min-width: 500px) {
+@media (min-width: 576px) {
   /* line 22, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_text.scss */
   .text-sm-left {
     text-align: left !important; }
@@ -8741,7 +8740,7 @@ button.bg-dark:focus {
   .text-sm-center {
     text-align: center !important; } }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   /* line 22, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_text.scss */
   .text-md-left {
     text-align: left !important; }
@@ -8752,7 +8751,7 @@ button.bg-dark:focus {
   .text-md-center {
     text-align: center !important; } }
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
   /* line 22, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_text.scss */
   .text-lg-left {
     text-align: left !important; }
@@ -8763,7 +8762,7 @@ button.bg-dark:focus {
   .text-lg-center {
     text-align: center !important; } }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   /* line 22, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/utilities/_text.scss */
   .text-xl-left {
     text-align: left !important; }
@@ -8816,11 +8815,11 @@ button.bg-dark:focus {
 
 /* line 6, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_text-emphasis.scss */
 .text-primary {
-  color: #333366 !important; }
+  color: #007bff !important; }
 
 /* line 17, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
 a.text-primary:hover, a.text-primary:focus {
-  color: #1a1a33 !important; }
+  color: #0056b3 !important; }
 
 /* line 6, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_text-emphasis.scss */
 .text-secondary {
@@ -8840,19 +8839,19 @@ a.text-success:hover, a.text-success:focus {
 
 /* line 6, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_text-emphasis.scss */
 .text-info {
-  color: #333399 !important; }
+  color: #17a2b8 !important; }
 
 /* line 17, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
 a.text-info:hover, a.text-info:focus {
-  color: #202060 !important; }
+  color: #0f6674 !important; }
 
 /* line 6, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_text-emphasis.scss */
 .text-warning {
-  color: #ffcc00 !important; }
+  color: #ffc107 !important; }
 
 /* line 17, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_hover.scss */
 a.text-warning:hover, a.text-warning:focus {
-  color: #b38f00 !important; }
+  color: #ba8b00 !important; }
 
 /* line 6, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/mixins/_text-emphasis.scss */
 .text-danger {
@@ -8965,10 +8964,10 @@ a.text-dark:hover, a.text-dark:focus {
     size: a3; }
   /* line 92, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_print.scss */
   body {
-    min-width: 900px !important; }
+    min-width: 992px !important; }
   /* line 95, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_print.scss */
   .container {
-    min-width: 900px !important; }
+    min-width: 992px !important; }
   /* line 100, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/bootstrap/_print.scss */
   .navbar {
     display: none; }
@@ -9000,791 +8999,4 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-/* line 1, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_base.scss */
-*, *:before, *:after {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  box-sizing: border-box; }
-
-/* line 8, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_base.scss */
-html, body {
-  overflow-x: hidden; }
-
-/* line 14, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_base.scss */
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  font-size: 1.45em;
-  padding-top: 10%;
-  color: white;
-  text-align: center;
-  z-index: +1;
-  text-shadow: #333333 2px 2px 0px; }
-  @media (min-width: 576px) {
-    /* line 14, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_base.scss */
-    h1 {
-      padding-top: 10%;
-      font-size: 2.5em;
-      text-shadow: #333333 2px 2px 0px; } }
-  @media (min-width: 768px) {
-    /* line 14, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_base.scss */
-    h1 {
-      padding-top: 10%;
-      font-size: 2.5em;
-      text-shadow: #333333 2px 2px 0px; } }
-  @media (min-width: 992px) {
-    /* line 14, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_base.scss */
-    h1 {
-      padding-top: 10%;
-      font-size: 4em;
-      text-shadow: #333333 3px 3px 0px; } }
-  @media (min-width: 1200px) {
-    /* line 14, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_base.scss */
-    h1 {
-      padding-top: 11%;
-      font-size: 4em;
-      text-shadow: #333333 3px 3px 0px; } }
-  @media (min-width: 1920px) {
-    /* line 14, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_base.scss */
-    h1 {
-      padding-top: 12%;
-      font-size: 4em;
-      text-shadow: #333333 3px 3px 0px; } }
-
-/* line 50, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_base.scss */
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.75em;
-  font-weight: 900;
-  color: #330033; }
-
-/* line 57, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_base.scss */
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5em;
-  text-align: center;
-  font-weight: 900;
-  color: #330033; }
-
-/* line 65, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_base.scss */
-h4 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.4em;
-  text-align: center;
-  font-weight: 900;
-  color: #333366; }
-
-/* line 73, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_base.scss */
-h5 {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  font-size: 1.15em;
-  font-weight: 900;
-  color: #333366; }
-
-/* line 81, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_base.scss */
-p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
-  font-weight: 600;
-  color: #333333;
-  text-align: left; }
-
-/* line 89, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_base.scss */
-.display-2 {
-  font-family: 'Cookie', cursive;
-  font-size: 1.25em;
-  font-weight: 700; }
-
-/* line 95, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_base.scss */
-.display-3 {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  font-weight: 900;
-  font-size: 2em;
-  color: #333366; }
-  @media (max-width: 500px) {
-    /* line 95, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_base.scss */
-    .display-3 {
-      font-size: 1.75em !important; } }
-
-/* line 3, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_layout.scss */
-.bg-secondary {
-  background-color: rgba(51, 51, 153, 0.03) !important; }
-
-/* line 7, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_layout.scss */
-.footer-bg {
-  padding-top: 2%;
-  padding-bottom: 3%;
-  padding-left: 3%;
-  background-color: #333366; }
-  /* line 12, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_layout.scss */
-  .footer-bg p, .footer-bg a, .footer-bg a:link, .footer-bg a:hover {
-    color: white;
-    text-shadow: none;
-    font-size: 1em; }
-
-/* line 21, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_layout.scss */
-.text-container {
-  width: 90%; }
-  @media (min-width: 900px) {
-    /* line 21, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_layout.scss */
-    .text-container {
-      width: 47.5%; } }
-  @media (min-width: 1920px) {
-    /* line 21, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_layout.scss */
-    .text-container {
-      width: 45%; } }
-
-/* line 31, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_layout.scss */
-.index-container {
-  margin: 0 auto;
-  width: 100%; }
-  @media (min-width: 576px) {
-    /* line 31, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_layout.scss */
-    .index-container {
-      width: 98%; } }
-  @media (min-width: 768px) {
-    /* line 31, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_layout.scss */
-    .index-container {
-      width: 92%; } }
-  @media (min-width: 992px) {
-    /* line 31, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_layout.scss */
-    .index-container {
-      width: 90%; } }
-  @media (min-width: 1200px) {
-    /* line 31, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_layout.scss */
-    .index-container {
-      width: 90%; } }
-
-/* line 49, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_layout.scss */
-.nav a {
-  color: #333366;
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.25em; }
-  @media (min-width: 900px) {
-    /* line 49, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_layout.scss */
-    .nav a {
-      font-size: 1em; } }
-
-/* line 59, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_layout.scss */
-.navbar {
-  border-bottom: solid 2px rgba(51, 51, 153, 0.03); }
-
-/* line 65, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_layout.scss */
-.center {
-  margin: 0 auto; }
-
-/* line 3, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.banner-heading {
-  position: relative;
-  height: 25vh;
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  z-index: -2; }
-  /* line 13, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-  .banner-heading .fa-angle-down {
-    color: white;
-    font-size: 1em;
-    text-shadow: #333333 3px 3px 0px; }
-  @media (min-width: 576px) {
-    /* line 3, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .banner-heading {
-      height: 30vh; } }
-  @media (min-width: 768px) {
-    /* line 3, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .banner-heading {
-      height: 35vh; } }
-  @media (min-width: 992px) {
-    /* line 3, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .banner-heading {
-      height: 45vh; } }
-  @media (min-width: 1200px) {
-    /* line 3, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .banner-heading {
-      height: 65vh; } }
-
-/* line 36, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.banner-web {
-  background-image: url("images/AllCaseStudies_Banner_YanaBrewster.jpg"); }
-
-/* line 40, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.banner-design {
-  background-image: url("images/Design_Banner_YanaBrewster.jpg"); }
-
-/* line 44, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.banner-about {
-  background-image: url("images/YanaBrewster.jpg"); }
-
-/* line 48, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.banner-publication {
-  background-image: url("images/Publications_Banner_YanaBrewster.jpg"); }
-
-/* line 52, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.banner-overlay {
-  text-align: center;
-  margin: 0 auto;
-  position: absolute;
-  height: 80vh;
-  background-color: rgba(51, 0, 51, 0.7);
-  width: 100%;
-  z-index: -1; }
-  @media (max-width: 575px) {
-    /* line 52, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .banner-overlay {
-      height: 100vh; } }
-
-/* line 64, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.banner-motif {
-  background-image: url("images/bannermotif.png");
-  background-position: center;
-  background-size: cover; }
-
-/* line 70, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.fa-angle-down {
-  color: #333399;
-  font-size: 1.250em; }
-
-/* line 77, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.w-15 {
-  padding: 15px;
-  width: 15%; }
-  @media (max-width: 900px) {
-    /* line 77, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .w-15 {
-      width: 50%; } }
-
-/* line 85, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.w-10 {
-  padding: 10px;
-  width: 10%; }
-  @media (max-width: 900px) {
-    /* line 85, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .w-10 {
-      width: 25%; } }
-
-@media (min-width: 576px) {
-  /* line 95, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-  .img-project {
-    width: 98%; } }
-
-@media (min-width: 768px) {
-  /* line 95, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-  .img-project {
-    width: 96%; } }
-
-@media (min-width: 992px) {
-  /* line 95, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-  .img-project {
-    width: 94%; } }
-
-@media (min-width: 1200px) {
-  /* line 95, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-  .img-project {
-    width: 90%; } }
-
-@media (min-width: 1920px) {
-  /* line 95, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-  .img-project {
-    width: 85%;
-    float: right; } }
-
-@media (max-width: 900px) {
-  /* line 114, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-  .w-25 {
-    width: 100% !important; } }
-
-/* line 120, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.w-40 {
-  width: 40%; }
-  @media (max-width: 900px) {
-    /* line 120, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .w-40 {
-      width: 100%; } }
-
-@media (max-width: 900px) {
-  /* line 127, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-  .w-50 {
-    width: 100% !important; } }
-
-@media (max-width: 900px) {
-  /* line 133, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-  .w-75 {
-    width: 100% !important; } }
-
-/* line 139, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.w-85 {
-  width: 85%; }
-  @media (max-width: 900px) {
-    /* line 139, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .w-85 {
-      width: 100%; } }
-
-/* line 148, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-#more {
-  display: none; }
-
-/* line 152, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.card-header {
-  background-color: white; }
-
-/* line 156, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.card {
-  border: 1px solid rgba(51, 51, 153, 0.35); }
-
-/* line 162, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.fa-linkedin {
-  color: white;
-  font-size: 3.5em; }
-  @media (max-width: 900px) {
-    /* line 162, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .fa-linkedin {
-      font-size: 2.5em; } }
-
-/* line 170, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.fa-github-square {
-  color: white;
-  font-size: 3.5em; }
-  @media (max-width: 900px) {
-    /* line 170, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .fa-github-square {
-      font-size: 2.5em; } }
-
-/* line 180, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.navbar-brand img {
-  width: 40%; }
-  @media (max-width: 575px) {
-    /* line 180, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .navbar-brand img {
-      width: 60%; } }
-  @media (min-width: 1920px) {
-    /* line 180, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .navbar-brand img {
-      width: 45%; } }
-
-/* line 190, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.button-font {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 1em;
-  margin: 0 auto; }
-
-/* line 198, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.case-button-font {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 1.25em;
-  background-color: #330033;
-  margin: 0 auto; }
-
-/* line 207, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.card li {
-  margin-left: 3%;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
-  color: #333333;
-  text-align: left; }
-
-/* line 216, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.port-video {
-  background-color: white; }
-
-/* line 220, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.vid-container {
-  max-width: 320px !important; }
-  @media (min-width: 500px) {
-    /* line 220, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .vid-container {
-      max-width: 540px !important; } }
-  @media (min-width: 600px) {
-    /* line 220, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .vid-container {
-      max-width: 720px !important; } }
-  @media (max-width: 900px) {
-    /* line 220, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .vid-container {
-      width: 760px !important; } }
-  @media (max-width: 1000px) {
-    /* line 220, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .vid-container {
-      width: 940px !important; } }
-
-/* line 236, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.video-crop {
-  height: 298px;
-  left: 12%;
-  max-width: 75%;
-  overflow: hidden;
-  position: absolute;
-  top: 10.5%; }
-  @media (max-width: 500px) {
-    /* line 236, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .video-crop {
-      height: 308px; } }
-  @media (max-width: 600px) {
-    /* line 236, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .video-crop {
-      height: 408px; } }
-  @media (max-width: 900px) {
-    /* line 236, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .video-crop {
-      height: 458px; } }
-  @media (max-width: 1000px) {
-    /* line 236, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .video-crop {
-      height: 548px; } }
-
-/* line 257, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.imac {
-  position: relative; }
-
-/* line 261, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.imac-bg {
-  width: 100%;
-  max-width: 100%; }
-
-/* line 266, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.video-port {
-  width: 100%;
-  max-width: 100%; }
-
-/* unvisited link */
-/* line 2, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_state.scss */
-a:link {
-  color: #333399; }
-
-/* visited link */
-/* line 7, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_state.scss */
-a:visited {
-  color: #330033; }
-
-/* mouse over link */
-/* line 12, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_state.scss */
-a:hover {
-  color: #333399;
-  text-decoration: underline; }
-
-/* selected link */
-/* line 18, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_state.scss */
-a:active {
-  color: #333366; }
-
-/* line 24, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_state.scss */
-.navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(51,51,102)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
-
-/* line 28, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_state.scss */
-.dropdown-menu {
-  color: #333366; }
-
-/* line 32, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_state.scss */
-.dropdown-item {
-  color: #333366; }
-
-/* line 36, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_state.scss */
-.dropdown-item:hover, .dropdown-item:focus {
-  color: #333333; }
-
-/* line 40, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_state.scss */
-.dropdown-item.active, .dropdown-item:active {
-  color: #330033;
-  background-color: rgba(51, 51, 102, 0.1); }
-
-/* line 45, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_state.scss */
-.nav-item a:link {
-  color: #333366; }
-
-/* line 49, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_state.scss */
-.nav-item a:visited {
-  color: #330033; }
-
-/* line 53, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_state.scss */
-.nav-item a:hover {
-  color: #333333; }
-
-/* line 3, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.banner-heading {
-  position: relative;
-  height: 25vh;
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  z-index: -2; }
-  /* line 13, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-  .banner-heading .fa-angle-down {
-    color: white;
-    font-size: 1em;
-    text-shadow: #333333 3px 3px 0px; }
-  @media (min-width: 576px) {
-    /* line 3, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .banner-heading {
-      height: 30vh; } }
-  @media (min-width: 768px) {
-    /* line 3, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .banner-heading {
-      height: 35vh; } }
-  @media (min-width: 992px) {
-    /* line 3, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .banner-heading {
-      height: 45vh; } }
-  @media (min-width: 1200px) {
-    /* line 3, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .banner-heading {
-      height: 65vh; } }
-
-/* line 36, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.banner-web {
-  background-image: url("images/AllCaseStudies_Banner_YanaBrewster.jpg"); }
-
-/* line 40, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.banner-design {
-  background-image: url("images/Design_Banner_YanaBrewster.jpg"); }
-
-/* line 44, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.banner-about {
-  background-image: url("images/YanaBrewster.jpg"); }
-
-/* line 48, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.banner-publication {
-  background-image: url("images/Publications_Banner_YanaBrewster.jpg"); }
-
-/* line 52, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.banner-overlay {
-  text-align: center;
-  margin: 0 auto;
-  position: absolute;
-  height: 80vh;
-  background-color: rgba(51, 0, 51, 0.7);
-  width: 100%;
-  z-index: -1; }
-  @media (max-width: 575px) {
-    /* line 52, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .banner-overlay {
-      height: 100vh; } }
-
-/* line 64, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.banner-motif {
-  background-image: url("images/bannermotif.png");
-  background-position: center;
-  background-size: cover; }
-
-/* line 70, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.fa-angle-down {
-  color: #333399;
-  font-size: 1.250em; }
-
-/* line 77, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.w-15 {
-  padding: 15px;
-  width: 15%; }
-  @media (max-width: 900px) {
-    /* line 77, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .w-15 {
-      width: 50%; } }
-
-/* line 85, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.w-10 {
-  padding: 10px;
-  width: 10%; }
-  @media (max-width: 900px) {
-    /* line 85, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .w-10 {
-      width: 25%; } }
-
-@media (min-width: 576px) {
-  /* line 95, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-  .img-project {
-    width: 98%; } }
-
-@media (min-width: 768px) {
-  /* line 95, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-  .img-project {
-    width: 96%; } }
-
-@media (min-width: 992px) {
-  /* line 95, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-  .img-project {
-    width: 94%; } }
-
-@media (min-width: 1200px) {
-  /* line 95, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-  .img-project {
-    width: 90%; } }
-
-@media (min-width: 1920px) {
-  /* line 95, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-  .img-project {
-    width: 85%;
-    float: right; } }
-
-@media (max-width: 900px) {
-  /* line 114, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-  .w-25 {
-    width: 100% !important; } }
-
-/* line 120, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.w-40 {
-  width: 40%; }
-  @media (max-width: 900px) {
-    /* line 120, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .w-40 {
-      width: 100%; } }
-
-@media (max-width: 900px) {
-  /* line 127, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-  .w-50 {
-    width: 100% !important; } }
-
-@media (max-width: 900px) {
-  /* line 133, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-  .w-75 {
-    width: 100% !important; } }
-
-/* line 139, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.w-85 {
-  width: 85%; }
-  @media (max-width: 900px) {
-    /* line 139, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .w-85 {
-      width: 100%; } }
-
-/* line 148, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-#more {
-  display: none; }
-
-/* line 152, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.card-header {
-  background-color: white; }
-
-/* line 156, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.card {
-  border: 1px solid rgba(51, 51, 153, 0.35); }
-
-/* line 162, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.fa-linkedin {
-  color: white;
-  font-size: 3.5em; }
-  @media (max-width: 900px) {
-    /* line 162, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .fa-linkedin {
-      font-size: 2.5em; } }
-
-/* line 170, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.fa-github-square {
-  color: white;
-  font-size: 3.5em; }
-  @media (max-width: 900px) {
-    /* line 170, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .fa-github-square {
-      font-size: 2.5em; } }
-
-/* line 180, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.navbar-brand img {
-  width: 40%; }
-  @media (max-width: 575px) {
-    /* line 180, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .navbar-brand img {
-      width: 60%; } }
-  @media (min-width: 1920px) {
-    /* line 180, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .navbar-brand img {
-      width: 45%; } }
-
-/* line 190, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.button-font {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 1em;
-  margin: 0 auto; }
-
-/* line 198, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.case-button-font {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 1.25em;
-  background-color: #330033;
-  margin: 0 auto; }
-
-/* line 207, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.card li {
-  margin-left: 3%;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
-  color: #333333;
-  text-align: left; }
-
-/* line 216, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.port-video {
-  background-color: white; }
-
-/* line 220, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.vid-container {
-  max-width: 320px !important; }
-  @media (min-width: 500px) {
-    /* line 220, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .vid-container {
-      max-width: 540px !important; } }
-  @media (min-width: 600px) {
-    /* line 220, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .vid-container {
-      max-width: 720px !important; } }
-  @media (max-width: 900px) {
-    /* line 220, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .vid-container {
-      width: 760px !important; } }
-  @media (max-width: 1000px) {
-    /* line 220, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .vid-container {
-      width: 940px !important; } }
-
-/* line 236, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.video-crop {
-  height: 298px;
-  left: 12%;
-  max-width: 75%;
-  overflow: hidden;
-  position: absolute;
-  top: 10.5%; }
-  @media (max-width: 500px) {
-    /* line 236, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .video-crop {
-      height: 308px; } }
-  @media (max-width: 600px) {
-    /* line 236, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .video-crop {
-      height: 408px; } }
-  @media (max-width: 900px) {
-    /* line 236, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .video-crop {
-      height: 458px; } }
-  @media (max-width: 1000px) {
-    /* line 236, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-    .video-crop {
-      height: 548px; } }
-
-/* line 257, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.imac {
-  position: relative; }
-
-/* line 261, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.imac-bg {
-  width: 100%;
-  max-width: 100%; }
-
-/* line 266, ../../../../../../../../../../../../../Users/yanabrewster/Desktop/YanaBrewster.github.io/scss/_module.scss */
-.video-port {
-  width: 100%;
-  max-width: 100%; }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=bootstrap.css.map */
